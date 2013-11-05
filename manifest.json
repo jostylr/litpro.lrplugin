@@ -1,0 +1,16 @@
+{
+  "LRCompilers": [
+    {
+      "Name": "LiterateProgramming",
+      "Extensions": ["md"],
+      "DestinationExtension": "lpout",
+      "CommandLine": [
+        "$(node)",
+        "$(plugin)/node_modules/literate-programming/bin/literate-programming.js",
+        "$(additional)",
+        "$(src_path)",
+        "$(dst_dir)"
+      ]
+    }
+  ]
+}
