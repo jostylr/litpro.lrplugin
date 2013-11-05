@@ -2,7 +2,7 @@
   "LRCompilers": [
     {
       "Name": "LiterateProgramming",
-      "Extensions": ["md"],
+      "Extensions": ["lp.md"],
       "DestinationExtension": "lpout",
       "CommandLine": [
         "$(node)",
