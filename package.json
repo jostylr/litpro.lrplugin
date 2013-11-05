@@ -1,7 +1,7 @@
 {
   "name": "literate-programming-lrplugin",
   "description": "A literate programming plugin for LiveReload",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/jostylr/litpro.lrplugin",
   "author": {
     "name": "James Taylor",
@@ -24,7 +24,7 @@
     "node": ">0.6"
   },
   "dependencies" : {
-    "literate-programming" : "~0.7.3"
+    "literate-programming" : "~0.7.5"
   },
   "private" : true
 }

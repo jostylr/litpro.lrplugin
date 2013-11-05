@@ -2,11 +2,12 @@
   "LRCompilers": [
     {
       "Name": "LiterateProgramming",
-      "Extensions": ["lp.md"],
+      "Extensions": ["md"],
       "DestinationExtension": "lpout",
       "CommandLine": [
         "$(node)",
         "$(plugin)/node_modules/literate-programming/bin/literate-programming.js",
+        "-e", "lp.md",
         "$(additional)",
         "$(src_path)",
         "$(dst_dir)"
